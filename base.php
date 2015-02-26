@@ -79,7 +79,7 @@ class base {
      */
     private function createMenu($cat){
         foreach ($cat as $key => $val){
-            $this->menu .= '<li><a href="./ranking.php?cat='.$key.'">'.$val.'</a></li>';
+            $this->menu .= '<li><a href="./index.php?cat='.$key.'">'.$val.'</a></li>';
         }
         return;
     }
